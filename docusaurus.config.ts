@@ -9,7 +9,7 @@ const PUBLICATION_URL = process.env.PUBLICATION_URL ?? 'https://fold.i-s.dev';
 
 const config: Config = {
   title: 'Fold',
-  tagline: 'protocol／情報子研究 documentation projection',
+  tagline: '情報子工学・動的グラフ・意味と効果をつなぐ',
   titleDelimiter: '·',
   favicon: 'img/favicon.svg',
 
@@ -24,7 +24,11 @@ const config: Config = {
 
   i18n: {
     defaultLocale: 'ja',
-    locales: ['ja'],
+    locales: ['ja', 'en'],
+    localeConfigs: {
+      ja: { label: '日本語', htmlLang: 'ja-JP' },
+      en: { label: 'English', htmlLang: 'en-US' },
+    },
   },
 
   headTags: [
@@ -40,7 +44,7 @@ const config: Config = {
         url: `${PUBLICATION_URL}/`,
         description:
           'Fold／情報子工学のprotocol・研究documentation projectionの入口。実装正本はfold-nic。',
-        inLanguage: 'ja',
+        inLanguage: ['ja-JP', 'en-US'],
       }),
     },
   ],
@@ -72,19 +76,19 @@ const config: Config = {
     mermaid: {
       theme: { light: 'neutral', dark: 'forest' },
     },
-    htmlLang: 'ja',
     colorMode: {
       defaultMode: 'dark',
       disableSwitch: false,
       respectPrefersColorScheme: true,
     },
     metadata: [
-      { name: 'author', content: 'HIPSTAR-IScompany' },
+      { name: 'author', content: '齋藤みつるSaitooMituru-Fusamofu-ふさもふ' },
       { property: 'og:site_name', content: 'Fold' },
     ],
     navbar: {
       title: 'Fold',
       items: [
+        { type: 'localeDropdown', position: 'right' },
         {
           href: 'https://github.com/HIPSTAR-IScompany/fold',
           label: 'GitHub',
@@ -95,7 +99,7 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [],
-      copyright: `Copyright © ${new Date().getFullYear()} HIPSTAR-IScompany. Content not migrated (site_id: ${SITE_ID}).`,
+      copyright: `Copyright © ${new Date().getFullYear()} 齋藤みつるSaitooMituru-Fusamofu-ふさもふ / HIPSTAR-IScompany. Documentation CC BY 4.0; code Apache-2.0. Partial projection (site_id: ${SITE_ID}).`,
     },
     prism: {
       theme: prismThemes.github,
