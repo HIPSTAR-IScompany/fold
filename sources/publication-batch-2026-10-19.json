@@ -38,7 +38,7 @@
         }
       ],
       "mode": "edited-explanation",
-      "status": "prepared"
+      "status": "source-published"
     },
     {
       "japanese": "docs/research/index.md",
@@ -67,7 +67,7 @@
         }
       ],
       "mode": "edited-explanation",
-      "status": "prepared"
+      "status": "source-published"
     },
     {
       "japanese": "docs/research/infoton-cluster.md",
@@ -89,7 +89,7 @@
         }
       ],
       "mode": "edited-explanation",
-      "status": "prepared"
+      "status": "source-published"
     },
     {
       "japanese": "docs/research/evidence-and-oae.md",
@@ -111,7 +111,7 @@
         }
       ],
       "mode": "edited-explanation",
-      "status": "prepared"
+      "status": "source-published"
     },
     {
       "japanese": "docs/engineering/index.md",
@@ -126,7 +126,7 @@
         }
       ],
       "mode": "edited-explanation",
-      "status": "prepared"
+      "status": "source-published"
     },
     {
       "japanese": "docs/protocols/index.md",
@@ -141,7 +141,7 @@
         }
       ],
       "mode": "edited-explanation",
-      "status": "prepared"
+      "status": "source-published"
     },
     {
       "japanese": "docs/glossary/index.md",
@@ -170,7 +170,7 @@
         }
       ],
       "mode": "edited-explanation",
-      "status": "prepared"
+      "status": "source-published"
     },
     {
       "japanese": "docs/reference/index.md",
@@ -213,7 +213,7 @@
         }
       ],
       "mode": "edited-explanation",
-      "status": "prepared"
+      "status": "source-published"
     },
     {
       "japanese": "docs/operations/provenance/README.md",
@@ -235,7 +235,7 @@
         }
       ],
       "mode": "edited-explanation",
-      "status": "prepared"
+      "status": "source-published"
     },
     {
       "japanese": "docs/operations/publication-policy.md",
@@ -257,7 +257,9 @@
         }
       ],
       "mode": "edited-explanation",
-      "status": "prepared"
+      "status": "source-published"
     }
-  ]
+  ],
+  "source_commit": "021aa5dd4e0b59f1b0cb1bf168fe69ca3663d455",
+  "source_ci": "https://github.com/HIPSTAR-IScompany/fold/actions/runs/39249966918"
 }
