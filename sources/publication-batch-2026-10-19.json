@@ -258,6 +258,21 @@
       ],
       "mode": "edited-explanation",
       "status": "source-published"
+    },
+    {
+      "japanese": "docs/engineering/infoton-science-engineering-method.md",
+      "english": "i18n/en/docusaurus-plugin-content-docs/current/engineering/infoton-science-engineering-method.md",
+      "sources": [
+        {
+          "repository": "saitoomituru/ZeroRoomLab-manifest",
+          "revision": "54bfe487cd28420caa1589ba64824102dab83f16",
+          "path": "docs/theory/infoton-science-engineering-fit-distillation.ja.md",
+          "url": "https://github.com/saitoomituru/ZeroRoomLab-manifest/blob/54bfe487cd28420caa1589ba64824102dab83f16/docs/theory/infoton-science-engineering-fit-distillation.ja.md",
+          "license": "CC-BY-4.0"
+        }
+      ],
+      "mode": "edited-explanation",
+      "status": "source-published"
     }
   ],
   "source_commit": "021aa5dd4e0b59f1b0cb1bf168fe69ca3663d455",
