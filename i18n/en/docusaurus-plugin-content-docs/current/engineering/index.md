@@ -17,6 +17,10 @@ FAM describes reusable semantic units with independent identities and connects t
 
 FQuery handles queries and routes; IBD has storage and acquisition responsibilities. This page explains the source-to-implementation relationship without introducing a new API contract.
 
+## Science and engineering optimize in opposite directions
+
+[Infoton Science versus Infoton Engineering](infoton-science-engineering-method.md) explains the scientific distillation of the smallest falsifiable Fit and the engineering accumulation of evidence, exceptions, adapters, and resilience. Weaver B/C, MATCH/FIT, and Fold7G/8G boundary claims remain **pending ASTRO implementation and AAE verification** rather than being promoted to a proven contract.
+
 ## Reference independent units
 
 When multiple Folds reuse a semantic unit, reference an independent FAM with provenance, revision, and identity. Distinguish a composed display from a merge that destroys the original boundaries.
